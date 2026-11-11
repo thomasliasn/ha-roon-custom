@@ -1,0 +1,25 @@
+{
+  "domain": "roon",
+  "name": "RoonLabs music player (Custom)",
+  "categories": [
+    "media_entertainment.music_radio_services"
+  ],
+  "codeowners": [
+    "@pavoni"
+  ],
+  "config_flow": true,
+  "connectivity": [
+    "network"
+  ],
+  "documentation": "https://github.com/thomasliasn/ha-roon-custom",
+  "integration_type": "hub",
+  "iot_class": "local_push",
+  "loggers": [
+    "roonapi"
+  ],
+  "requirements": [
+    "roonapi==0.1.6"
+  ],
+  "version": "2026.11.1-path",
+  "issue_tracker": "https://github.com/thomasliasn/ha-roon-custom/issues"
+}

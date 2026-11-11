@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Gailua dagoeneko konfiguratuta dago"
+        },
+        "error": {
+            "invalid_auth": "Autentifikazio baliogabea",
+            "unknown": "Ustekabeko errorea"
+        },
+        "step": {
+            "fallback": {
+                "data": {
+                    "host": "Ostalari",
+                    "port": "Ataka"
+                }
+            }
+        }
+    },
+    "entity": {
+        "event": {
+            "volume": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "volume_down": "Bolumena jaitsi",
+                            "volume_up": "Bolumena igo"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "setup_failed": {
+            "message": "{name} Roon zerbitzaria konfiguratzeak huts egin du"
+        }
+    }
+}

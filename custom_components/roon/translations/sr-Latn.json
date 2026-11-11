@@ -1,0 +1,56 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Ure\u0111aj je ve\u0107 pode\u0161en"
+        },
+        "error": {
+            "invalid_auth": "Neva\u017ee\u0107i podaci za prijavu",
+            "unknown": "Neo\u010dekivana gre\u0161ka"
+        },
+        "step": {
+            "fallback": {
+                "data": {
+                    "host": "Adresa hosta",
+                    "port": "Port"
+                },
+                "description": "Nije mogu\u0107e otkriti Roon server, molimo unesite adresu ra\u010dunara (hostname) i port."
+            },
+            "link": {
+                "description": "Morate odobriti Home Assistant u Roon aplikaciji. Nakon \u0161to izaberete **Potvrdi**, idite u Roon Core aplikaciju, otvorite \u201ePode\u0161avanja\u201c i omogu\u0107ite Home Assistant na kartici \u201eEkstenzije\u201c (Extensions).",
+                "title": "Odobravanje pristupa za Home Assistant u Roon-u"
+            }
+        }
+    },
+    "entity": {
+        "event": {
+            "volume": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "mute_toggle": "Isklju\u010di zvuk",
+                            "volume_down": "Smanji zvuk",
+                            "volume_up": "Poja\u010daj zvuk"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "setup_failed": {
+            "message": "Pode\u0161avanje Roon servera {name} nije uspelo"
+        }
+    },
+    "services": {
+        "transfer": {
+            "description": "Prebacuje reprodukciju sa jednog plejera na drugi.",
+            "fields": {
+                "transfer_id": {
+                    "description": "ID odredi\u0161nog plejera.",
+                    "name": "ID prenosa"
+                }
+            },
+            "name": "Prenos"
+        }
+    }
+}

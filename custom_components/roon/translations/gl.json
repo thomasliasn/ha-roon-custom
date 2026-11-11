@@ -1,0 +1,56 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "O dispositivo xa est\u00e1 configurado"
+        },
+        "error": {
+            "invalid_auth": "Autenticaci\u00f3n non v\u00e1lida",
+            "unknown": "Erro inesperado"
+        },
+        "step": {
+            "fallback": {
+                "data": {
+                    "host": "Host",
+                    "port": "Porto"
+                },
+                "description": "Non se puido descubrir o servidor Roon; introduce o nome do host e o porto."
+            },
+            "link": {
+                "description": "Tes que autorizar Home Assistant en Roon. Despois de seleccionar **Enviar**, vai \u00e1 aplicaci\u00f3n Roon Core, abre **Configuraci\u00f3n** e activa Home Assistant na lapela **Extensi\u00f3ns**.",
+                "title": "Autorizar Home Assistant en Roon"
+            }
+        }
+    },
+    "entity": {
+        "event": {
+            "volume": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "mute_toggle": "Activar/desactivar o silencio",
+                            "volume_down": "Baixar o volume",
+                            "volume_up": "Subir o volume"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "setup_failed": {
+            "message": "Non se puido configurar o servidor Roon {name}"
+        }
+    },
+    "services": {
+        "transfer": {
+            "description": "Transfire a reproduci\u00f3n dun reprodutor a outro.",
+            "fields": {
+                "transfer_id": {
+                    "description": "ID do reprodutor de destino.",
+                    "name": "ID de transferencia"
+                }
+            },
+            "name": "Transferir"
+        }
+    }
+}

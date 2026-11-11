@@ -1,0 +1,6 @@
+This integration is derived from the Roon integration in Home Assistant
+(https://github.com/home-assistant/core, homeassistant/components/roon),
+Copyright Home Assistant contributors, licensed under the Apache License 2.0.
+
+Changes: path-based media browsing and playback IDs, library search, and explicit
+errors when playback cannot start.
