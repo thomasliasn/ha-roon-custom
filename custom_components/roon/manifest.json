@@ -5,7 +5,7 @@
     "media_entertainment.music_radio_services"
   ],
   "codeowners": [
-    "@pavoni"
+    "@thomasliasn"
   ],
   "config_flow": true,
   "connectivity": [
